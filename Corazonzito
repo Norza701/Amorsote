@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para mi amor</title>
+  <style>
+    body {
+      background-color: #ffe6f0;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #ff3366;
+    }
+    p {
+      font-size: 20px;
+      color: #333;
+    }
+    .heart {
+      font-size: 60px;
+      color: red;
+      animation: heartbeat 1s infinite;
+    }
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      25% { transform: scale(1.2); }
+      50% { transform: scale(1); }
+      75% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Para ti, mi amor ❤️</h1>
+  <div class="heart">❤️</div>
+  <p>
+    ojala y no te aburrad de :) <br>
+    Gracias por hacer mis días más brillantes y mi corazón más feliz.<br><br>
+    Te amo más que a todos, no lo olvides "periquito"💕
+  </p>
+</body>
+</html>
